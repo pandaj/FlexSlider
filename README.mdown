@@ -81,7 +81,6 @@ Two new methods are available for adding/removing slides, `slider.addSlide()` an
 - [Video with Vimeo API](http://flexslider.woothemes.com/video.html)
 - [Video with Wistia API](http://flexslider.woothemes.com/video-wistia.html)
 
-
 ## Properties
 
 ### namespace: *{new}*
@@ -180,3 +179,17 @@ Description to be added.
 
 ### allowOneSlide: *{new}*
 Boolean. Whether or not you'd like FlexSlider to initialize as usual if only one slide is present.
+
+
+## Slider Data
+
+$('#slider').data('flexslider').count = Total nomber of slides. (without clones)
+$('#slider').data('flexslider').currentSlide = Number of current slide. (0 based)
+$('#slider').data('flexslider').last = Number of the last slide. (0 based)
+$('#slider').data('flexslider').direction = Direction of the slider's last change ('prev' or 'next')
+$('#slider').data('flexslider').w = Width of the slider (in pixels)
+$('#slider').data('flexslider').h = Height of the slider (in pixels)
+$('.flexslider').data('flexslider').cloneCount = Number of cloned slides
+
+
+
